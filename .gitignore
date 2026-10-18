@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 编译产物（电控）
+firmware/**/build/
+firmware/**/*.elf
+firmware/**/*.hex
+firmware/**/*.bin
